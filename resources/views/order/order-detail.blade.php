@@ -16,7 +16,7 @@
     <section class="order-two-content pro-content">
         <div class="container">
             <div class="page-heading-title">
-                <h2> Order Information
+                <h2>  Information commande
                 </h2>
 
             </div>
@@ -27,7 +27,7 @@
                 <div class="col-12 col-lg-3 ">
                     <div class="heading">
                         <h2>
-                            My Account
+                            Mon compte
                         </h2>
                         <hr>
                     </div>
@@ -36,37 +36,37 @@
                         <li class="list-group-item">
                             <a class="nav-link" href="profile.html">
                                 <i class="fas fa-user"></i>
-                                Profile
+                                Profil
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a class="nav-link" href="wishlist.html">
                                 <i class="fas fa-heart"></i>
-                                Wishlist
+                                liste souhait
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a class="nav-link" href="orders.html">
                                 <i class="fas fa-shopping-cart"></i>
-                                Orders
+                                Commande
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a class="nav-link" href="shipping-address.html">
                                 <i class="fas fa-map-marker-alt"></i>
-                                Shipping Address
+                                Addresse Livraison
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a class="nav-link" href="javascript:void(0)">
                                 <i class="fas fa-power-off"></i>
-                                Logout
+                                Deconnection
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a class="nav-link" href="change-password.html">
                                 <i class="fas fa-unlock-alt"></i>
-                                Change Password
+                                Changer Password
                             </a>
                         </li>
                     </ul>
@@ -88,13 +88,13 @@
                             <table class="table order-id">
                                 <tbody>
                                     <tr class="d-flex">
-                                        <td class="col-6 col-md-6">Order Status</td>
+                                        <td class="col-6 col-md-6">Status commande</td>
                                         <td class="pending col-6 col-md-6">
-                                            <p>Pending</p>
+                                            <p>En attente</p>
                                         </td>
                                     </tr>
                                     <tr class="d-flex">
-                                        <td class="col-6 col-md-6">Order Date</td>
+                                        <td class="col-6 col-md-6">Date commande</td>
                                         <td class="underline col-6 col-md-6" align="left">28/04/2019</td>
                                     </tr>
                                 </tbody>
@@ -105,7 +105,7 @@
                             <div class="heading">
                                 <h2>
                                     <small>
-                                        Shipping Details
+                                       Details Commande
                                     </small>
                                 </h2>
                                 <hr>
@@ -114,7 +114,7 @@
                             <table class="table order-id">
                                 <tbody>
                                     <tr class="d-flex">
-                                        <td class="address col-12 col-md-6">Shipping Address</td>
+                                        <td class="address col-12 col-md-6">Addresse Livraison</td>
 
 
                                     </tr>

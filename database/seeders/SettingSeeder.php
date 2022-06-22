@@ -812,7 +812,7 @@ class SettingSeeder extends Seeder
                 ],
                 [
                     'key' => 'email',
-                    'value' => 'bussiness@email.com',
+                    'value' => 'coin-medical@coin-medical.com',
                     'type' => 'business_general',
                 ],
                 [

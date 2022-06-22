@@ -50,7 +50,7 @@
                     <div class=" btn-hover new-design">
                         <a class="btn  btn-secondary  swipe-to-top product-card-link" href="javascript:void(0)"
                             data-toggle="tooltip" data-placement="bottom" title=""
-                            data-original-title="View Detail">View Detail</a>
+                            data-original-title="View Detail">Details</a>
 
                     </div>
                 </div>

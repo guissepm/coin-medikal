@@ -17,7 +17,7 @@
                 
               </tr>      
               <tr>
-                <td><span>Price&nbsp;:&nbsp;</span><span class="price-tag product-card-price"></span></td>
+                <td><span>Prix&nbsp;:&nbsp;</span><span class="price-tag product-card-price"></span></td>
                 
               </tr>
                <tr >
@@ -29,8 +29,8 @@
               <tr>
                 <td>
                   <div class="detail-buttons">
-                      <a href="#" class="btn btn-secondary swipe-to-top product-card-link">View Details</a>
-                      <a href="#" class="btn  swipe-to-top remove-compare">Remove Compare</a>
+                      <a href="#" class="btn btn-secondary swipe-to-top product-card-link"> Details</a>
+                      <a href="#" class="btn  swipe-to-top remove-compare">Supprimer Compare</a>
 
                   </div>
                  

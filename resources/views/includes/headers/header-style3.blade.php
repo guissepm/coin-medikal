@@ -1,20 +1,11 @@
       <!-- //header style Two -->
       <header id="headerTwo" class="header-area header-three header-desktop d-none d-lg-block d-xl-block">
 
-        @if (trans("lables.header-top-offer") != '')
+ 
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
-          <div class="container">
-            <div class="pro-description">
-              <div class="pro-info">
-                {!!  trans("lables.header-top-offer") !!}
-              </div>
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">×</span>
-              </button>
-            </div>
-          </div>
+      
         </div>
-        @endif
+      
   
           <div class="header-mini bg-top-bar">
             <div class="container">
@@ -22,27 +13,8 @@
                 <div class="col-12 col-md-6">
                   <div class="navbar-lang">
   
-                    <div class="dropdown">
-                      <button class="btn dropdown-toggle language-default-name" type="button">
-                        English
-                      </button>
-                      <div class="dropdown-menu">
-                        @foreach($data['language'] as $languages)
-                        <a class="dropdown-item language-default" href=" {{ url('/lang/'.$languages->code) }}" data-id={{$languages->id}} data-name="{{$languages->name}}">{{$languages->name}}</a>
-                        @endforeach
-                      </div>
-                    </div>
-        
-                    <div class="dropdown">
-                      <button class="btn dropdown-toggle" id="selected-currency" type="button">
-                        USD
-                      </button>
-                      <div class="dropdown-menu">
-                        @foreach($data['currency'] as $currencies)
-                          <a class="dropdown-item selected-currency" data-id="{{$currencies->id}}" data-code="{{$currencies->title}}" href="javascript:void(0)">{{$currencies->title}}</a>
-                        @endforeach
-                      </div>
-                    </div>
+                    
+                  
                   </div> 
                 </div>
                 <div class="col-12 col-md-6 without-auth-login">

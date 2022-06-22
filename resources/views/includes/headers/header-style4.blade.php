@@ -24,7 +24,7 @@
   
                     <div class="dropdown">
                       <button class="btn dropdown-toggle language-default-name" type="button">
-                        English
+                        FR
                       </button>
                       <div class="dropdown-menu">
                         @foreach($data['language'] as $languages)

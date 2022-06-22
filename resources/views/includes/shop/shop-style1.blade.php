@@ -37,7 +37,7 @@
                                     <label>{{ trans('lables.shop-category') }}</label>
                                     <div class="select-control">
                                         <select class="form-control category-filter" name="category">
-                                            <option value="">choose</option>
+                                            <option value="">choisir</option>
                                             @foreach ($data['category'] as $category)
                                                 @if (isset($_GET['category']) && $_GET['category'] == $category->id)
                                                     <option selected value="{{ $category->id }}">
@@ -58,7 +58,7 @@
                                     <label>{{ trans('lables.shop-price') }}</label>
                                     <div class="select-control">
                                         <select class="form-control price-filter" name="price">
-                                            <option value="">choose</option>
+                                            <option value="">choisir</option>
                                             @foreach ($data['price_range'] as $price_range)
                                                 @if (isset($_GET['price']) && $_GET['price'] == $price_range)
                                                     <option selected value="{{ $price_range }}">{{ $price_range }}
@@ -102,7 +102,7 @@
 
 
                                 <div class="form-group ">
-                                    <button class="btn-secondary" type="button" id="filter">filter</button>
+                                    <button class="btn-secondary" type="button" id="filter">filtrer</button>
                                 </div>
                             </form>
 
@@ -112,11 +112,11 @@
                                     <label>{{ trans('lables.shop-sort-by') }}</label>
                                     <div class="select-control">
                                         <select class="form-control sortBy" >
-                                            <option value="">choose</option>
-                                            <option disabled><b>Price</b></option>
+                                            <option value="">choisir</option>
+                                            <option disabled><b>Prix</b></option>
                                             <option value="low-high" data-sort-by="price" data-sort-type="asc">Low To High</option>
                                             <option value="high-to" data-sort-by="price" data-sort-type="desc">High To Low</option>
-                                            <option disabled><b>Name</b></option>
+                                            <option disabled><b>Nom</b></option>
                                             <option value="A-Z" data-sort-by="title" data-sort-type="asc">A-Z</option>
                                             <option value="Z-A" data-sort-by="title" data-sort-type="desc">Z-A</option>
                                         </select>

@@ -65,7 +65,7 @@
     
                         </div>
                         <a href="javascript:void(0)" class="btn btn-secondary swipe-to-top wishlist-product-btn">
-                            ADD TO CART
+                            ADJOUTER AU PANIER
                         </a>
                     </div>
                 </div>

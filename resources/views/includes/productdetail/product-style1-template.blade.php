@@ -28,8 +28,8 @@
             </div>
 
             <div class="pro-infos">
-              <div class="pro-single-info"><b>Product ID :</b><span class="product-detail-section-product-id"></span></div>
-              <div class="pro-single-info"><b>Categroy :</b><a href="javascript:void(0)" class="product-detail-section-cateogory-link"></a></div>
+              <div class="pro-single-info"><b>ID PRODUIT  :</b><span class="product-detail-section-product-id"></span></div>
+              <div class="pro-single-info"><b>Categorie:</b><a href="javascript:void(0)" class="product-detail-section-cateogory-link"></a></div>
               <input type="hidden" id="product_combination_id" />
             </div>
 
@@ -54,14 +54,14 @@
                   </button>
                 </span>
               </div>
-              <button type="button" class="btn btn-secondary btn-lg swipe-to-top add-to-cart">Add to Cart</button>
+              <button type="button" class="btn btn-secondary btn-lg swipe-to-top add-to-cart">Ajouter au panier</button>
 
 
             </div>
             <div class="pro-sub-buttons">
               <div class="buttons">
-                <button type="button" class="btn  btn-link wishlist-icon" style="padding-left: 0;"><i class="fas fa-heart"></i>Add to Wishlist</button>
-                <button type="button" class="btn btn-link compare-icon"><i class="fas fa-align-right"></i>Add to Compare</button>
+                <button type="button" class="btn  btn-link wishlist-icon" style="padding-left: 0;"><i class="fas fa-heart"></i>Ajouter au favori</button>
+                <button type="button" class="btn btn-link compare-icon"><i class="fas fa-align-right"></i>Ajouter au comparer</button>
               </div>
               <!-- AddToAny BEGIN -->
               <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
@@ -81,7 +81,7 @@
           <div class="col-12 col-md-12">
             <div class="nav nav-pills" role="tablist">
               <a class="nav-link nav-item  active" href="#description" id="description-tab" data-toggle="pill" role="tab">Description</a>
-              {{-- <a class="nav-link nav-item " href="#additionalInfo" id="additional-info-tab" data-toggle="pill" role="tab">Additional information</a> --}}
+              {{-- <a class="nav-link nav-item " href="#additionalInfo" id="additional-info-tab" data-toggle="pill" role="tab">information >Additionnelle</a> --}}
               <a class="nav-link nav-item" href="#review" id="review-tab" data-toggle="pill" role="tab">Reviews</a>
             </div>
             <div class="tab-content">
@@ -93,17 +93,17 @@
 
                   <tbody>
                     <tr>
-                      <th scope="row">Brand Name:</th>
+                      <th scope="row">Marque:</th>
                       <td>lindoMetals</td>
 
                     </tr>
                     <tr>
-                      <th scope="row">Metals Type:</th>
+                      <th scope="row"> Type:</th>
                       <td>Silver</td>
 
                     </tr>
                     <tr>
-                      <th scope="row">Main Stone:</th>
+                      <th scope="row">Pierre principal:</th>
                       <td>Pearl</td>
 
                     </tr>
@@ -119,16 +119,16 @@
                 <div class="reviews">
                   <div class="review-bubbles">
                     <h2>
-                      Customer Reviews
+                     Avis de client
                     </h2>
                     <div id="review-rating-show">
                     </div>
                   </div>
                   <div class="write-review">
-                    <h2>Write a Review</h2>
+                    <h2>Ecrire au client</h2>
                     <div class="write-review-box">
                       <div class="from-group row mb-3">
-                        <div class="col-12"> <label for="inlineFormInputGroup2">Rating</label></div>
+                        <div class="col-12"> <label for="inlineFormInputGroup2">Evaluation</label></div>
                         <div class="pro-rating col-12">
 
                           <fieldset class="ratings">
@@ -159,7 +159,7 @@
                       </div>
 
                       <div class="from-group row mb-3">
-                        <div class="col-12"> <label for="title">Review Title</label></div>
+                        <div class="col-12"> <label for="title">Titre du commentaire </label></div>
                         <div class="input-group col-12">
 
                           <input type="text" class="form-control" id="title" placeholder="Title of Review">
